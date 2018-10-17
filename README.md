@@ -22,4 +22,4 @@
 <h4>To checkout the json page/endpoint, visit => http://localhost:80/api/fruits</h4><br>
 <h4>To checkout the json page/endpoint, visit => http://localhost:80/api/fruits/:name</h4><br><br><br>
 
-<p><strong><a href="https://trailblazing.in/p/ohiodn8" target="_blank">trailblazing</a></strong></p>
+<p><strong><a href="https://www.trailblazing.in/p/ohiodn8" target="_blank">trailblazing</a></strong></p>
