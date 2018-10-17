@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit App</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+</head>
+    
+<body>
+
+<div class="container-fluid">
+    <h1>Fruit Market</h1>
+    <p><small>This is an example of how the page would look like when you start the NodeJS server (by running the CF template or running it directly in a server). </small></p>
+    <p><small>Name of CF Template: setup_nodejs</small></p>
+    <hr><br>
+
+    <div class="col-md-8">
+            <div class="jumbotron text-center">
+                <h2>Search For Any Fruit</h2>
+    <h4>Type something in the input field to search the table for name, shape, size or color:</h4>  
+    <input type="text" placeholder="Search.." class="form-control">
+            </div>
+
+    <div>      
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>size</th>
+        <th>shape</th>
+        <th>color</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>apple</td>
+        <td>small</td>
+        <td>round</td>
+        <td>wine</td>
+      </tr>
+      <tr>
+        <td>watermelon</td>
+        <td>big</td>
+        <td>round</td>
+        <td>green</td>
+      </tr>
+      <tr>
+        <td>orange</td>
+        <td>big</td>
+        <td>round</td>
+        <td>orange</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>     
+
+    </div>
+
+    <div class="col-md-4">
+        <ul class="text-center">
+            <form action="add_fruit" method="post"><br>
+                <h2>Submit your Fruit</h2>
+                <input type="text" name = "name" class="form-control" placeholder="fruit name" required>
+                <input type="text" name = "size" class="form-control" placeholder="fruit size" required>
+                <input type="text" name = "shape" class="form-control" placeholder="fruit shape" required>
+                <input type="text" name = "color" class="form-control" placeholder="fruit color" required><br>
+                <input type="submit" class="btn btn-primary btn-block" value="create new fruit">
+            </form>
+    </div>	
+</div>
+   
+</body>
+</html>
