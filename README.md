@@ -5,7 +5,7 @@
 <li>Database: sqlite3</li>
 <li>You can install the application in an AWS ec2 instance by running the Cloud Formation Template in the repository. Name of CF Template: setup_nodejs</li>
 <li></li>
-<li>Sample look of application (not the real thing) <a href="" target="_blank">Sample-Look</a></li>
+<li>Sample look of application (not the real thing) <a href="https://ohiodn8.github.io/FruitApp/" target="_blank">Sample-Look</a></li>
 <li>The application has api endpoints, in case you decide to consume the json page.</li>    
 </ul><br>
 
@@ -20,4 +20,6 @@
 
 
 <h4>To checkout the json page/endpoint, visit => http://localhost:80/api/fruits</h4><br>
-<h4>To checkout the json page/endpoint, visit => http://localhost:80/api/fruits/:name</h4><br>
+<h4>To checkout the json page/endpoint, visit => http://localhost:80/api/fruits/:name</h4><br><br><br>
+
+<p><strong><a href="http://trailblazing.in/p/ohiodn8" target="_blank">trailblazing.in/p/ohiodn8</a></strong></p>
